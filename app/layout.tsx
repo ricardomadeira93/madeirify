@@ -1,6 +1,7 @@
 import Sidebar from "@/components/Sidebar";
 import "./globals.css";
 import { Work_Sans } from "next/font/google";
+import SupabaseProvider from "@/providers/supabaseProvider";
 
 const font = Work_Sans({ subsets: ["latin"] });
 
@@ -17,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="forest">
       <body className={font.className}>
-        <Sidebar>{children}</Sidebar>
+        <SupabaseProvider>
+          <Sidebar>{children}</Sidebar>
+        </SupabaseProvider>
       </body>
     </html>
   );
