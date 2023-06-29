@@ -1,6 +1,7 @@
 import Sidebar from "@/components/Sidebar";
 import "./globals.css";
 import { Work_Sans } from "next/font/google";
+import ToasterProvider from "@/providers/ToasterProvider";
 import SupabaseProvider from "@/providers/supabaseProvider";
 import UserProvider from "@/providers/UserProvider";
 import ModalProvider from "@/providers/ModalProvider";
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="forest">
       <body className={font.className}>
+        <ToasterProvider />
         <SupabaseProvider>
           <UserProvider>
             <ModalProvider />
