@@ -8,7 +8,6 @@ import {
 import { UserDetails, Subscription } from "@/types";
 
 type UserContextType = {
-  id: any;
   accessToken: string | null;
   user: User | null;
   userDetails: UserDetails | null;

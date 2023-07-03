@@ -1,19 +1,26 @@
 "use client";
 
+import Image from "next/image";
+
 import useLoadImage from "@/hooks/useLoadImage";
 import { Song } from "@/types";
-import Image from "next/image";
+
+import PlayButton from "./PlayButton";
 
 interface SongItemProps {
   data: Song;
   onClick: (id: string) => void;
 }
 
-const SongItem: React.FC<SongItemProps> = ({ data, onClick }) => {
+const SongItem: React.FC<SongItemProps> = ({
+  data,
+  onClick
+}) => {
   const imagePath = useLoadImage(data);
-  return (
+
+  return ( 
     <div
-      onClick={() => onClick(data.id)}
+      onClick={() => onClick(data.id)} 
       className="
         relative 
         group 
@@ -31,7 +38,7 @@ const SongItem: React.FC<SongItemProps> = ({ data, onClick }) => {
         p-3
       "
     >
-      <div
+      <div 
         className="
           relative 
           aspect-square 
@@ -43,14 +50,16 @@ const SongItem: React.FC<SongItemProps> = ({ data, onClick }) => {
       >
         <Image
           className="object-cover"
-          src={imagePath || "/images/music-placeholder.png"}
+          src={imagePath || '/images/music-placeholder.png'}
           fill
           alt="Image"
         />
       </div>
       <div className="flex flex-col items-start w-full pt-4 gap-y-1">
-        <p className="font-semibold truncate w-full">{data.title}</p>
-        <p
+        <p className="font-semibold truncate w-full">
+          {data.title}
+        </p>
+        <p 
           className="
             text-neutral-400 
             text-sm 
@@ -62,17 +71,17 @@ const SongItem: React.FC<SongItemProps> = ({ data, onClick }) => {
           By {data.author}
         </p>
       </div>
-      <div
+      <div 
         className="
           absolute 
           bottom-24 
           right-5
         "
       >
-        {/* <PlayButton /> */}
+        <PlayButton />
       </div>
     </div>
-  );
-};
-
+   );
+}
+ 
 export default SongItem;
