@@ -7,9 +7,10 @@ import ToasterProvider from "@/providers/ToasterProvider";
 import UserProvider from "@/providers/UserProvider";
 import ModalProvider from "@/providers/ModalProvider";
 
+import Player from "@/components/Player";
+
 import "./globals.css";
 import SupabaseProvider from "@/providers/supabaseProvider";
-import Player from "@/components/Player";
 
 const font = Figtree({ subsets: ["latin"] });
 
