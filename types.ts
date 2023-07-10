@@ -1,4 +1,4 @@
-import Stripe from 'stripe';
+import Stripe from "stripe";
 
 export interface Song {
   id: string;
@@ -69,4 +69,8 @@ export interface Subscription {
   trial_start?: string;
   trial_end?: string;
   prices?: Price;
+}
+
+export interface ProductWithPrice extends Product {
+  prices?: Price[];
 }
