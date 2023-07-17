@@ -9,7 +9,7 @@
 <a href="https://madeirify.vercel.app/">Madeirify</a>
 <br>
 
-<h4> Main Page</h4>
+
 ![image](https://github.com/ricardomadeira93/madeirify/assets/57236461/94d2eebb-f6f8-4899-bcb9-57f4d83865dd)
 ![image](https://github.com/ricardomadeira93/madeirify/assets/57236461/64dce1f5-27a2-41c6-b43f-66b3f68866e6)
 ![image](https://github.com/ricardomadeira93/madeirify/assets/57236461/0e7d708d-5011-40a9-92bb-1e113ea08f75)
