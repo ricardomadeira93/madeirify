@@ -3,7 +3,7 @@
 
 <p>I decided to create this project, when i tought of my love for music.i planned to create a spotify clone, where i could display my skills as a web developer and where could practice so i can improve my projects portfolio.</p>
 
-- This app consists of the main functionalitiesies: **Sign In/Up** | **Add Music** | **Like Musics** | **Paid Subscription Acess** | **Music Player**
+- This app consists of the main functionalities: **Sign In/Up** | **Add Music** | **Like Musics** | **Paid Subscription Acess** | **Music Player**
 
 <h4>Visit My Project here:</h4>
 <a href="https://madeirify.vercel.app/">Madeirify</a>
