@@ -1,7 +1,7 @@
 <h1 align="center">Spotify clone (Madeirify)</h1>
 <h3 align="center">This is a spotify clone project.</h3>
 
-<p>I decided to create this project, when i tought of my love for music. I then decided to create a spotify clone, where i could display my skills as a web developer and where could practice so i can improve my projects portfolio.</p>
+<p>I decided to create this project, when i tought of my love for music.i planned to create a spotify clone, where i could display my skills as a web developer and where could practice so i can improve my projects portfolio.</p>
 
 - This app consists of the main functionalitiesies: **Sign In/Up** **Add Music** **Like Musics** **Paid Subscription Acess** **Music Player**
 
